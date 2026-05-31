@@ -24,7 +24,11 @@ Revenue is highly concentrated. The top 17% of customers, 1,374 accounts, drive 
 
 Retention is healthy at the top of the funnel but leaks badly at the bottom. Net Revenue Retention stabilized around 112% in 2025, helped by steady upgrades and expansion, and Gross Revenue Retention sat near 96%. Those numbers would put this business in the upper quartile of B2B SaaS benchmarks. But under the average, the picture splits sharply by tier and tenure. Starter customers churn at 38% in their first three months. Growth customers churn at 24% in the same window. Enterprise customers churn at 15%. After the first year the curves flatten, but the damage is done early.
 
+![Cohort retention heatmap by signup month and tenure](assets/cohort_retention.png)
+
 Segment matters as much as tier. Financial Services customers in North America have an average lifetime value of $12,356 and churn at 20%. Retail customers in EMEA have an average LTV of $5,064 and churn at 38%, the worst combination in the dataset. The model fit on at-signup features only (industry, region, tier, channel, discount, signup quarter) reaches a ROC AUC of 0.65, which is modest in absolute terms but useful: it confirms what the descriptive analysis shows. Tier and industry carry the most signal, with Enterprise tier and Financial Services industry pushing risk down, and Starter tier, Retail, and Media pushing it up.
+
+![Top drivers of 12-month churn risk (logistic regression coefficients)](assets/churn_drivers.png)
 
 ## What I would recommend
 
