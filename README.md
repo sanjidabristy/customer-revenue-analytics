@@ -2,6 +2,8 @@
 
 > A narrative memo on what drives revenue and retention in a B2B subscription business, written in the working-backwards style. Built on three years of synthetic customer, subscription, and transaction data using SQL, Python, and Tableau.
 
+**Live Tableau dashboard:** [Customer Revenue & Retention on Tableau Public](https://public.tableau.com/app/profile/sanjida.nahar.bristy/viz/customer-revenue-analytics/CustomerRevenueRetention)
+
 ---
 
 ## The question
